@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+:root {
+    --black: #000;
+    --blackCasse: #00000098;
+    --white: #ffffff;
+    --green: rgba(0, 128, 0, 0.918);
+    --greenFonce: rgb(3, 119, 3);
+    --bordeau: rgb(53, 4, 41);
+    --yellow: rgba(238, 214, 0, 0.904);
+}
+header{
+    height: 20vh;
+    background: var(--white);
+}
+header nav {
+    display: grid;
+    grid-template-columns: 20% 30% 10% 7% 23%;
+    background: var(--white);
+    align-items: center;
+    padding: 10px 60px;
+    *{
+        /* border: 1px solid red; */
+    }
+}
+header nav img{
+    border-radius: 50%;
+    height: 80px;
+}
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+header nav ul li{
+    background: var(--green);
+    width: 70%;
+    border-radius: 12px;
+    height: 6px;
+    margin: 3px 0;
+}
+header nav > * {
+   
+margin: 0 12px;
+}
+header h2 {
+    color: var(--green);
+     
+}
+/* ----------------home------------- */
+
+.home {
+    height: 85vh;
+   background: url(./images/agrobest-cameroun\ \(7\).jpg) center/cover no-repeat;    
+    padding: 60px;
+}
+.home h1 {
+    color: var(--yellow);
+font-size: 6rem;
+}
+.home span{
+    border-bottom: 8px solid var(--yellow);
+    
+}
+.home p{
+    width: 40%;
+    margin: 14px 0;
+    font-weight: 900;
+    color: var(--white);
+}
+.home button{
+    padding: 10px 20px;
+    background: var(--yellow);
+    border-radius: 20px;
+    color: var(--green);
+    font-weight: 800;
+    border: none;
+    margin: 12px 0;
+    
+}
+
+/* -----------------A propos----------- */
+
+.about {
+    padding: 20px 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about h2{
+    color: var(--green);
+    margin: 10px;
+    font-weight: 900;
+    margin: 32px 0;
+    font-size: 2rem;
+}
+.about h3{
+    
+    font-weight: 900;
+}
+.about h3, p{
+    width: 55%;
+    
+}
+.about p{
+    font-weight: 800;
+    color: var(--blackCasse);
+}
+.about > *{
+    margin: 16px 0;
+}
+.about img {
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 7px -5px var(--black);
+    border: 4px solid var(--green);
+}
+.about h2 span {
+    border-bottom: 7px solid var(--bordeau);
+    
+}
+/* -------------visions---------- */
+.visions{
+    display: flex;
+    margin: 80px 0;
+}
+.vision1, .vision2{
+    box-shadow: 10px 10px 7px -8px var(--black);
+    margin: 12px 22px;
+    padding: 0 22px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid var(--yellow);
+}
+.vision1{
+    background: var(--white);
+}
+.vision1 p, .vision2 p{
+    width: 100%;
+    text-align: left;
+    margin: 32px ;
+}
+
+/* -----------------services------------ */
+
+.services{
+    background: url(./images/agrobest-cameroun\ \(17\).jpg)center/cover no-repeat;
+    margin: 0 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.services span{
+     border-bottom: 9px solid var(--yellow);
+}
+.services h2 {
+    font-size: 4rem;
+    margin: 20px 0;
+    color: var(--white);
+}
+.services .technology, .formation{
+background: var(--white);
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+margin: 12px;
+width: 40%;
+border-radius: 12px;
+}
+    .services  .technology h2 ,.formation h2{
+        font-size: 2rem;
+        color: var(--black);
+        font-weight: 900;
+        
+}
+    .services  .technology h3 ,.formation h3{
+        color: var(--green);
+        font-weight: 900;
+}
+    .services  .technology span ,.formation span{
+        border-radius: 50%;
+        background: var(--green);
+        font-weight: 900;
+        height: 2px;
+        width: 2px;
+        
+}
+
+/* --------------utilisation------------ */
+
+.utilisation{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.utilisation .part1 .img1{
+    border-radius: 25% 0 25% 0;
+    width: 40%;
+    object-fit: cover;
+    height: 430px;
+    border: 6px solid var(--green);
+    
+}
+.utilisation .part1, .part2{
+    margin: 30px 0;
+align-items: center;
+display: flex;
+flex-direction: column;    
+}
+.utilisation .part2 .img2{
+    border-radius: 110px 0 110px 0;
+    width: 40%;
+    object-fit: cover;
+    height: 180px;
+    border: 6px solid var(--green);
+}
+.utilisation .part1, h2 .part2, h2{
+    text-align: center;
+    color: var(--greenFonce);
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+.utilisation .part1 .text{
+    color: var(--black);
+    text-align: left;
+    
+}
+.utilisation .part1 h3 {
+ width: 60%;
+ margin: 30px 2px;
+}
+.utilisation .h2{
+    padding: 20px;
+    font-size: 3.3rem;
+    font-weight: 900;
+    margin: 12px 0;
+}
+.utilisation .h2 span{
+    border-bottom: 9px solid var(--bordeau);
+}
+/* --------------------produit-------------- */
+
+.produit {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(4, 61, 6);
+    padding: 60px 0;
+}
+.card-contrainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: grid;
+    grid-template-columns: 10% 50%  40%;
+    align-items: center;
+    width: 90%;
+    padding: 1%;
+}
+.card h2{
+/* padding: -12px 20px; */
+text-align: left;
+}
+.card .text p{
+width: 100%;
+}
+.card .text h2, p{
+padding: 0 7%;
+}
+.card .text h2{
+font-weight: 900;
+}
+
+.card .text{
+border-radius: 0 20px 20px 0;
+background: var(--white);
+display: flex;
+justify-content: left;
+flex-direction: column;
+}
+.card .h2 {
+    padding: 15%;
+    border-radius: 20px 0 0 20px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    color: var(--yellow);
+    background: var(--green);
+}
+

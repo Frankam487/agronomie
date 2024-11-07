@@ -272,6 +272,7 @@ flex-direction: column;
     align-items: center;
     background-color: rgb(4, 61, 6);
     padding: 60px 0;
+    
 }
 .card-contrainer{
     display: flex;

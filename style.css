@@ -274,45 +274,4 @@ flex-direction: column;
     padding: 60px 0;
     
 }
-.card-contrainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.card{
-    display: grid;
-    grid-template-columns: 10% 50%  40%;
-    align-items: center;
-    width: 90%;
-    padding: 1%;
-}
-.card h2{
-text-align: left;
-}
-.card .text p{
-width: 100%;
-}
-.card .text h2, p{
-padding: 0 7%;
-}
-.card .text h2{
-font-weight: 900;
-}
-
-.card .text{
-border-radius: 0 20px 20px 0;
-background: var(--white);
-display: flex;
-justify-content: left;
-flex-direction: column;
-}
-.card .h2 {
-    padding: 15%;
-    border-radius: 20px 0 0 20px;
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 900;
-    color: var(--yellow);
-    background: var(--green);
-}
 
